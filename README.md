@@ -50,3 +50,13 @@ Node.js installed on your system
 - Install dependencies: npm install
 - Start server : node app.js
 - Test cases: npm test
+
+
+#### Testing the API
+
+Use tools like Postman or curl to send requests to the API.
+
+Sample Request:
+curl -X POST http://localhost:3000/get-recipes \
+-H "Content-Type: application/json" \
+-d '{"calories": 400, "preference": "vegetarian"}'
